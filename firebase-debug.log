@@ -1,0 +1,28 @@
+[debug] [2019-02-06T13:35:44.516Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T13:35:44.518Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-02-06T13:35:44.519Z] CLI Version:   6.3.1
+[debug] [2019-02-06T13:35:44.519Z] Platform:      darwin
+[debug] [2019-02-06T13:35:44.519Z] Node Version:  v10.14.2
+[debug] [2019-02-06T13:35:44.520Z] Time:          Wed Feb 06 2019 13:35:44 GMT+0000 (Greenwich Mean Time)
+[debug] [2019-02-06T13:35:44.520Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T13:35:44.535Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T13:35:44.535Z] > authorizing via signed-in user
+[debug] [2019-02-06T13:35:44.536Z] [iam] checking project fantasy-football-live for permissions ["firebase.projects.get"]
+[debug] [2019-02-06T13:35:44.538Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fantasy-football-live:testIamPermissions  
+
+[debug] [2019-02-06T13:35:51.456Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T13:35:51.459Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fantasy-football-live  
+ 
+[debug] [2019-02-06T13:35:51.658Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/apple/Documents/Projects/FantasyApp'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-06T13:35:52.523Z] Fetching environment
+[debug] [2019-02-06T13:35:52.525Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/276208393080:getServerAppConfig  
+ 
+[debug] [2019-02-06T13:35:52.835Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T13:35:52.836Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-06T13:35:54.396Z] Parsing function triggers
+[info] ✔  functions: checkDeadline: http://localhost:5000/fantasy-football-live/us-central1/checkDeadline
